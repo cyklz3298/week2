@@ -1,0 +1,20 @@
+// Flex
+.d-flex {
+    display: flex;
+}
+.f-jcc {
+    justify-content: center;
+}
+.f-aic {
+    align-items: center;
+}
+// Text
+.text-center {
+    text-align: center;
+}
+.text-primary {
+    color: $primary-color;
+}
+.text-seconary {
+    color: $secondary-color;
+}

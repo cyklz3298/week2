@@ -1,3 +1,7 @@
-@import 'varibles';
-@import 'meyerweb';
-@import 'base';
+@import 'base/reset';
+@import 'base/typography';
+@import 'utils/varibles';
+@import 'utils/mixins';
+@import 'utils/helpers';
+@import 'layout/footer';
+@import 'pages/index';

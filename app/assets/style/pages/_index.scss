@@ -1,0 +1,9 @@
+.info {
+    &--banner {
+        min-height: 100vh;
+        @include make-banner('../images/banner.png');
+    }
+    &__content{
+        width: 304px;
+    }
+}
