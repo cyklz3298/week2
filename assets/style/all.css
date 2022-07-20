@@ -45,26 +45,51 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.header {
-  height: 200px;
-  background-color: #00cc99; }
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.f-jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.f-aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.text-center {
+  text-align: center; }
+
+.text-primary {
+  color: white; }
+
+.text-seconary {
+  color: black; }
 
 .footer {
   height: 200px;
   background-color: #00cc99; }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+.info--banner {
+  min-height: 100vh;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 101% 101%; }
+
+.info__content {
+  width: 304px; }
 
 /*# sourceMappingURL=all.css.map */
