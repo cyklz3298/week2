@@ -1,9 +1,14 @@
 .info {
     &--banner {
         min-height: 100vh;
-        @include make-banner('../images/banner.png');
+        @include gen-banner('../images/banner.png');
     }
     &__content{
-        width: 304px;
+        &__title{
+            line-height: 106px;
+            span{
+                line-height: 42px;
+            }
+        }
     }
 }

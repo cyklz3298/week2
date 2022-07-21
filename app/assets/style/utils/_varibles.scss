@@ -1,2 +1,13 @@
 $primary-color: white;
 $secondary-color: black;
+
+$spacer: 1rem;
+$spacer-prefixs: ('mt': 'margin-top', 
+                    'mr': 'margin-right',
+                    'mb': 'margin-bottom',
+                    'ml': 'margin-left',
+                    'pt': 'padding-top', 
+                    'pr': 'padding-right',
+                    'pb': 'padding-bottom',
+                    'pl': 'padding-left');
+$spacer-amount: 20;

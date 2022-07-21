@@ -1,9 +1,10 @@
 *,*::before,*::after {
   box-sizing: border-box;
 }
-// body {
-
-// }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
 img {
   max-width: 100%;
   height: auto;

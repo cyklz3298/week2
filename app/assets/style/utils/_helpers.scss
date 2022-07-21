@@ -1,3 +1,12 @@
+.d-inline {
+    display: inline;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-block {
+    display: block;
+}
 // Flex
 .d-flex {
     display: flex;
@@ -17,4 +26,24 @@
 }
 .text-seconary {
     color: $secondary-color;
+}
+// Margin、Padding Spacer
+@each $spacer-prefix, $spacer-property in $spacer-prefixs {
+    @for $i from 1 through $spacer-amount {
+        .#{$spacer-prefix}-#{$i} {
+            #{$spacer-property}: $spacer * .25 * $i;
+        }
+    }
+}
+// line-height
+@for $i from 3 through 10 {
+    .lh-#{$i} {
+        line-height: $spacer * .25 * $i;
+    }
+}
+// font-size
+@for $i from 3 through 20 {
+    .fs-#{$i} {
+        font-size: $spacer * .25 * $i;
+    }
 }
