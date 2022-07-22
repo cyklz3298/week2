@@ -1,7 +1,10 @@
+.container {
+    width: 100%;
+}
 .d-inline {
     display: inline;
 }
-.d-inline-block {
+.d-iblock {
     display: inline-block;
 }
 .d-block {
@@ -13,6 +16,12 @@
 }
 .f-jcc {
     justify-content: center;
+}
+.f-jcsa {
+    justify-content: space-around;
+}
+.f-jcsb {
+    justify-content: space-between
 }
 .f-aic {
     align-items: center;
@@ -35,15 +44,21 @@
         }
     }
 }
-// line-height
 @for $i from 3 through 10 {
+    // line-height
     .lh-#{$i} {
         line-height: $spacer * .25 * $i;
     }
 }
-// font-size
 @for $i from 3 through 20 {
+    // font-size
     .fs-#{$i} {
         font-size: $spacer * .25 * $i;
+    }
+}
+@for $i from 1 through 9 {
+    // font-weight
+    .fw-#{$i} {
+        font-weight: $i * 100;
     }
 }

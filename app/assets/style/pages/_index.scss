@@ -3,12 +3,20 @@
         min-height: 100vh;
         @include gen-banner('../images/banner.png');
     }
-    &__content{
-        &__title{
+    &__content {
+        padding-top: 308px;
+        &__title {
             line-height: 106px;
-            span{
-                line-height: 42px;
+        }
+        &__list {
+            &__iconLink {
+                &:hover {
+                    opacity: 0.5;
+                }
             }
         }
     }
+}
+.about {
+
 }
