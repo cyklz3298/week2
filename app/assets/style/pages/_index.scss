@@ -93,20 +93,3 @@
         }
     }
 }
-footer{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    h2 {
-        line-height: 5.25rem;
-    }
-    ul {
-        line-height: 2.0625rem;
-        a {
-                color: $primary-color;
-                text-decoration: none;
-                &:hover {
-                    color: #891818;
-                }
-        }
-    }
-}
