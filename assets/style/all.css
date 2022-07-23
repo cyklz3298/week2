@@ -718,9 +718,18 @@ img {
 .bg-secondary {
   background-color: black; }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
+footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  footer h2 {
+    line-height: 5.25rem; }
+  footer ul {
+    line-height: 2.0625rem; }
+    footer ul a {
+      color: white;
+      text-decoration: none; }
+      footer ul a:hover {
+        color: #891818; }
 
 .info--banner {
   min-height: 100vh;
@@ -785,18 +794,5 @@ img {
         margin-bottom: 1rem; }
     .work__cnt__works p {
       line-height: 2.625rem; }
-
-footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
-  footer h2 {
-    line-height: 5.25rem; }
-  footer ul {
-    line-height: 2.0625rem; }
-    footer ul a {
-      color: white;
-      text-decoration: none; }
-      footer ul a:hover {
-        color: #891818; }
 
 /*# sourceMappingURL=all.css.map */
