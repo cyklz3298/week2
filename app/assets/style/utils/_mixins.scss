@@ -1,4 +1,4 @@
-@mixin gen-banner($url) {
+@mixin make-banner($url) {
     background-image: url($url);
     background-position: center;
     background-repeat: no-repeat;

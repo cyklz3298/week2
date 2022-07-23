@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
     width: 100%;
 }
 .d-inline {
@@ -21,10 +21,16 @@
     justify-content: space-around;
 }
 .f-jcsb {
-    justify-content: space-between
+    justify-content: space-between;
 }
 .f-aic {
     align-items: center;
+}
+.fd-column{
+    flex-direction: column;
+}
+.f-wrap {
+    flex-wrap: wrap;
 }
 // Text
 .text-center {
@@ -36,7 +42,16 @@
 .text-seconary {
     color: $secondary-color;
 }
+.fs-italic {
+    font-style: italic;
+}
+.fs-normal {
+    font-style: normal;
+}
 // Margin、Padding Spacer
+.m-auto{
+    margin: 0 auto;
+}
 @each $spacer-prefix, $spacer-property in $spacer-prefixs {
     @for $i from 1 through $spacer-amount {
         .#{$spacer-prefix}-#{$i} {
@@ -61,4 +76,8 @@
     .fw-#{$i} {
         font-weight: $i * 100;
     }
+}
+// Color
+.bg-secondary{
+    background-color: $secondary-color;
 }

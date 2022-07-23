@@ -5,37 +5,43 @@ engine: ejs
 current: index
 ---
 <main>
-  <div class="container">
+  <div class="container-fluid">
     <article>
-      <section class="info info--banner d-flex f-jcc">
-        <div class="info__content text-primary">
-          <h1 class="info__content__title mb-8 fs-20 fw-9"><span class="d-block fs-6 fw-7 lh-8">Here’s</span>JOANNE</h1>
-          <ul>
-            <li class="info__content__list fs-6 fw-7 mb-10">Founder of “XXXD Official’’<br>& Graphic Designer</li>
-            <li class="info__content__list d-flex f-jcsb">
-              <a href="#" class="info__content__list__iconLink"><img src="./assets/images/behance.svg" alt="behance-img"></a>
-              <a href="#" class="info__content__list__iconLink"><img src="./assets/images/facebook.svg" alt="facebook-img"></a>
-              <a href="#" class="info__content__list__iconLink"><img src="./assets/images/instagram.svg" alt="instagram-img"></a>
-              <a href="#" class="info__content__list__iconLink"><img src="./assets/images/youtube.svg" alt="youtube-img"></a>
-            </li>
+      <section class="info info--banner d-flex f-jcc f-aic">
+        <div class="info__Cnt text-primary">
+          <h1 class="info__Cnt__title fs-20 fw-9 mb-8"><span class="d-block fs-6 fw-7 lh-8">Here’s</span>JOANNE</h1>
+          <p class="fs-6 fw-7 mb-10">Founder of “XXXD Official’’<br>& Graphic Designer</p>
+          <ul class="info__Cnt__icon d-flex f-jcsb">
+              <li><a href="#"><img src="./assets/images/behance.svg" alt="behance-img"></a></li>
+              <li><a href="#"><img src="./assets/images/facebook.svg" alt="facebook-img"></a></li>
+              <li><a href="#"><img src="./assets/images/instagram.svg" alt="instagram-img"></a></li>
+              <li><a href="#"><img src="./assets/images/youtube.svg" alt="youtube-img"></a></li>
           </ul>
         </div>
       </section>
       <section class="about d-flex f-jcc">
-        <div class="about__content text-secondary text-center mt-14">
-          <h2 class="about__content__title mb-8 fs-20 fw-5">About</h2>
-          <ul>
-            <li class="about__content__list fs-6 fw-7 mb-10">Founder of “XXXD Official’’<br>& Graphic Designer</li>
-            <li class="about__content__list d-flex f-jcsb">
-              <a href="#" class="about__content__list__iconLink"><img src="./assets/images/behance.svg" alt="behance-img"></a>
-              <a href="#" class="about__content__list__iconLink"><img src="./assets/images/facebook.svg" alt="facebook-img"></a>
-              <a href="#" class="about__content__list__iconLink"><img src="./assets/images/instagram.svg" alt="instagram-img"></a>
-              <a href="#" class="about__content__list__iconLink"><img src="./assets/images/youtube.svg" alt="youtube-img"></a>
-            </li>
+        <div class="about__Cnt d-flex fd-column f-aic text-secondary text-center mt-14">
+          <h2 class="about__Cnt__title fs-16 fw-5 mb-8">About</h2>
+          <div class="about__Cnt__avatar mb-5"><img src="./assets/images/photo.png" alt="avatar-img"></div>
+          <ul class="about__Cnt__intro fs-6 fw-7 mb-6">
+            <li class="lh-8 mb-1">Joanne Chen</li>
+            <li class="lh-8 mb-2">1997/10/10</li>
+            <li>National Hex School Normal University<br>Department of Visual Design</li>
+          </ul>
+          <ul class="about__Cnt__exp fs-6 fw-7 lh-8 pt-7 mb-14">
+            <li class="mb-7">Founder of ‘’XXXD Official’’</li>
+            <li class="mb-7">Graphic Designer</li>
+            <li>Graphic Intern of Hex School</li>
           </ul>
         </div>
       </section>
-
+      <section class="brand d-flex f-jcc bg-secondary">
+        <div class="brandCnt text-primary text-center mt-14">
+          <h2 class="brandCnt__title fs-16 fw-5 mb-3">My Brand ‘’XXXD’’</h2>
+          <p>Just Keep XXXD Everyday</p>
+          <p>2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
+        </div>
+      </section>
     </article>
   </div>
 </main>
