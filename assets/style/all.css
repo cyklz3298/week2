@@ -712,6 +712,10 @@ img {
 .bg-secondary {
   background-color: black; }
 
+.footer {
+  height: 200px;
+  background-color: #00cc99; }
+
 .info--banner {
   min-height: 100vh;
   background-image: url("../images/banner.png");
