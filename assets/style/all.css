@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -51,7 +52,7 @@ table {
           box-sizing: border-box; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Microsoft JhengHei', sans-serif;
   line-height: 1.5; }
 
 img {
@@ -59,7 +60,7 @@ img {
   height: auto;
   vertical-align: middle; }
 
-.container {
+.container-fluid {
   width: 100%; }
 
 .d-inline {
@@ -95,6 +96,16 @@ img {
       -ms-flex-align: center;
           align-items: center; }
 
+.fd-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.f-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .text-center {
   text-align: center; }
 
@@ -103,6 +114,15 @@ img {
 
 .text-seconary {
   color: black; }
+
+.fs-italic {
+  font-style: italic; }
+
+.fs-normal {
+  font-style: normal; }
+
+.m-auto {
+  margin: 0 auto; }
 
 .mt-1 {
   margin-top: 0.25rem; }
@@ -689,9 +709,8 @@ img {
 .fw-9 {
   font-weight: 900; }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
+.bg-secondary {
+  background-color: black; }
 
 .info--banner {
   min-height: 100vh;
@@ -700,11 +719,30 @@ img {
   background-repeat: no-repeat;
   background-size: 101% 101%; }
 
-.info__content {
-  padding-top: 308px; }
-  .info__content__title {
-    line-height: 106px; }
-  .info__content__list__iconLink:hover {
+.info__Cnt__title {
+  line-height: 6.625rem; }
+
+.info__Cnt__icon li a {
+  display: inline-block; }
+  .info__Cnt__icon li a:hover {
     opacity: 0.5; }
+
+.about__Cnt__title {
+  line-height: 5.25rem; }
+
+.about__Cnt__avatar {
+  width: 24rem; }
+
+.about__Cnt__exp {
+  width: 24rem;
+  border-top: 1px solid black;
+  line-height: 2rem; }
+  .about__Cnt__exp li::before {
+    content: "⬤";
+    color: #891818;
+    margin-right: 1rem; }
+
+.brandCnt__title {
+  line-height: 5.25rem; }
 
 /*# sourceMappingURL=all.css.map */
