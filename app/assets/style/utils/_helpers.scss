@@ -1,5 +1,6 @@
-.container-fluid {
-    width: 100%;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .d-inline {
     display: inline;
@@ -26,10 +27,13 @@
 .f-aic {
     align-items: center;
 }
+.f-asc {
+    align-self: center;
+}
 .fd-column{
     flex-direction: column;
 }
-.f-wrap {
+.fw-wrap {
     flex-wrap: wrap;
 }
 // Text

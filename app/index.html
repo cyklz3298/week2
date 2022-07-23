@@ -5,43 +5,96 @@ engine: ejs
 current: index
 ---
 <main>
-  <div class="container-fluid">
-    <article>
-      <section class="info info--banner d-flex f-jcc f-aic">
-        <div class="info__Cnt text-primary">
-          <h1 class="info__Cnt__title fs-20 fw-9 mb-8"><span class="d-block fs-6 fw-7 lh-8">Here’s</span>JOANNE</h1>
-          <p class="fs-6 fw-7 mb-10">Founder of “XXXD Official’’<br>& Graphic Designer</p>
-          <ul class="info__Cnt__icon d-flex f-jcsb">
-              <li><a href="#"><img src="./assets/images/behance.svg" alt="behance-img"></a></li>
-              <li><a href="#"><img src="./assets/images/facebook.svg" alt="facebook-img"></a></li>
-              <li><a href="#"><img src="./assets/images/instagram.svg" alt="instagram-img"></a></li>
-              <li><a href="#"><img src="./assets/images/youtube.svg" alt="youtube-img"></a></li>
+  <article>
+    <section class="info info--banner d-flex f-jcc f-aic">
+      <div class="info__cnt text-primary d-flex fd-column">
+        <h1 class="info__cnt__title fs-20 fw-9 mb-8"><span class="d-block fs-6 fw-7">Here’s</span>JOANNE</h1>
+        <p class="fs-6 fw-7 f-asc mb-10">Founder of “XXXD Official’’<br>& Graphic Designer</p>
+        <ul class="info__cnt__iconLinks d-flex f-jcsb">
+          <li><a href="#"><img src="./assets/images/behance.svg" alt="behance-img"></a></li>
+          <li><a href="#"><img src="./assets/images/facebook.svg" alt="facebook-img"></a></li>
+          <li><a href="#"><img src="./assets/images/instagram.svg" alt="instagram-img"></a></li>
+          <li><a href="#"><img src="./assets/images/youtube.svg" alt="youtube-img"></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about__cnt d-flex fd-column f-aic text-secondary text-center">
+        <h2 class="about__cnt__title fs-16 mb-8">About</h2>
+        <div class="about__cnt__avatar mb-5"><img src="./assets/images/photo.png" alt="avatar-img"></div>
+        <ul class="about__cnt__intro fs-6 fw-7 mb-6">
+          <li class="lh-8 mb-1">Joanne Chen</li>
+          <li class="lh-8 mb-2">1997/10/10</li>
+          <li>National Hex School Normal University<br>Department of Visual Design</li>
+        </ul>
+        <ul class="about__cnt__exps fs-6 fw-7 lh-8 pt-7">
+          <li class="mb-7">Founder of ‘’XXXD Official’’</li>
+          <li class="mb-7">Graphic Designer</li>
+          <li>Graphic Intern of Hex School</li>
+        </ul>
+      </div>
+    </section>
+    <section class="brand bg-secondary">
+      <div class="container">
+        <div class="brand__cnt text-primary text-center">
+          <h2 class="brand__cnt__title fs-16 mb-3">My Brand ‘’XXXD’’</h2>
+          <h3 class="fs-6 lh-8 mb-8">Just Keep XXXD Everyday</h3>
+          <p class="fs-5">2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
+          <ul class="brand__cnt__brands d-flex fw-wrap f-jcc">
+            <li>
+              <div><img src="./assets/images/brand_img1.png" alt="brand1-img"></div>
+            </li>
+            <li>
+              <div><img src="./assets/images/brand_img2.png" alt="brand2-img"></div>
+            </li>
+            <li>
+              <div><img src="./assets/images/brand_img3.png" alt="brand3-img"></div>
+            </li>
           </ul>
         </div>
-      </section>
-      <section class="about d-flex f-jcc">
-        <div class="about__Cnt d-flex fd-column f-aic text-secondary text-center mt-14">
-          <h2 class="about__Cnt__title fs-16 fw-5 mb-8">About</h2>
-          <div class="about__Cnt__avatar mb-5"><img src="./assets/images/photo.png" alt="avatar-img"></div>
-          <ul class="about__Cnt__intro fs-6 fw-7 mb-6">
-            <li class="lh-8 mb-1">Joanne Chen</li>
-            <li class="lh-8 mb-2">1997/10/10</li>
-            <li>National Hex School Normal University<br>Department of Visual Design</li>
-          </ul>
-          <ul class="about__Cnt__exp fs-6 fw-7 lh-8 pt-7 mb-14">
-            <li class="mb-7">Founder of ‘’XXXD Official’’</li>
-            <li class="mb-7">Graphic Designer</li>
-            <li>Graphic Intern of Hex School</li>
+      </div>
+    </section>
+    <section class="work">
+      <div class="container">
+        <div class="work__cnt text-secondary text-center">
+          <h2 class="work__cnt__title fs-16 mb-4">Other Works</h2>
+          <p class="fs-5 mb-14">2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
+          <ul class="work__cnt__works d-flex fw-wrap fs-5">
+            <li>
+              <div><img src="./assets/images/work_img1.png" alt="work-img1"></div>
+              <p>海報設計/2017</p>
+            </li>
+            <li>
+              <div><img src="./assets/images/work_img2.png" alt="work-img2"></div>
+              <p>海報設計/2018</p>
+            </li>
+            <li>
+              <div><img src="./assets/images/work_img3.png" alt="work-img3"></div>
+              <p>海報設計/2018</p>
+            </li>
+            <li>
+              <div><img src="./assets/images/work_img4.png" alt="work-img4"></div>
+              <p>概念攝影/2018</p>
+            </li>
+            <li>
+              <div><img src="./assets/images/work_img5.png" alt="work-img5"></div>
+              <p>概念攝影/2018</p>
+            </li>
+            <li>
+              <div><img src="./assets/images/work_img6.png" alt="work-img6"></div>
+              <p>sasa 酒標設計/2019</p>
+            </li>
+            <li>
+              <div><img src="./assets/images/work_img7.png" alt="work-img7"></div>
+              <p>攝影創作/2018</p>
+            </li>
+            <li>
+              <div><img src="./assets/images/work_img8.png" alt="work-img8"></div>
+              <p>官網設計/2020</p>
+            </li>
           </ul>
         </div>
-      </section>
-      <section class="brand d-flex f-jcc bg-secondary">
-        <div class="brandCnt text-primary text-center mt-14">
-          <h2 class="brandCnt__title fs-16 fw-5 mb-3">My Brand ‘’XXXD’’</h2>
-          <p>Just Keep XXXD Everyday</p>
-          <p>2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
-        </div>
-      </section>
-    </article>
-  </div>
+      </div>
+    </section>
+  </article>
 </main>

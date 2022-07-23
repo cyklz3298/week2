@@ -3,11 +3,14 @@
         min-height: 100vh;
         @include make-banner('../images/banner.png');
     }
-    &__Cnt {
+    &__cnt {
         &__title {
             line-height: 6.625rem;
+            span {
+                line-height: 2.625rem;
+            }
         }
-        &__icon {
+        &__iconLinks {
             li a {
                 display: inline-block;
                 &:hover {
@@ -18,14 +21,13 @@
     }
 }
 .about {
-    &__Cnt {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    &__cnt {
         &__title {
             line-height: 5.25rem;
         }
-        &__avatar {
-            width: 24rem;
-        }
-        &__exp{
+        &__exps{
             width: 24rem;
             border-top: 1px solid black;
             line-height: 2rem;
@@ -49,11 +51,62 @@
     }
 }
 .brand {
-    &Cnt {
+    padding-top: 3.5rem;
+    padding-bottom: 10rem;
+    &__cnt {
         &__title {
             line-height: 5.25rem;
         }
-        
-        
+        h3+p {
+            margin-bottom: 4.25rem;
+        }
+        &__brands{
+            gap: 2.5rem 1.5rem;
+        }
+    }
+}
+.work {
+    padding-top: 3.5rem;
+    padding-bottom: 9rem;
+    &__cnt {
+        &__title {
+            line-height: 5.25rem;
+        }
+        &__works{
+            gap: 3rem 1.5rem;
+            div {
+                overflow: hidden;
+                img {
+                    transition: all 0.2s linear;
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(1.1);
+                    }
+                }
+                &:nth-of-type(1) {
+                    margin-bottom: 1rem;
+                } 
+            }
+            p {
+                line-height: 2.625rem;
+            }
+        }
+    }
+}
+footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    h2 {
+        line-height: 5.25rem;
+    }
+    ul {
+        line-height: 2.0625rem;
+        a {
+                color: $primary-color;
+                text-decoration: none;
+                &:hover {
+                    color: #891818;
+                }
+        }
     }
 }
